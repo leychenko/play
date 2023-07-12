@@ -18,7 +18,7 @@ class Play {
       this.picture = document.createElement("div")
       this.picture.className = "picture"
       this.img = document.createElement("img")
-      this.img.src = `/img/Screenshot_${this.getRandomImage()}.jpg`
+      this.img.src = `/img/Screenshot${this.getRandomImage()}.jpg`
       this.picture.append(this.img)
       this.card.append(this.picture)
       div.append(this.card)
@@ -38,61 +38,61 @@ class Play {
 }
 
 let imagePlay = [
-  "/img/Screenshot_1.jpg",
+  "../img/Screenshot1.jpg",
 
-  "/img/Screenshot_2.jpg",
+  "../img/Screenshot2.jpg",
 
-  "/img/Screenshot_3.jpg",
+  "../img/Screenshot3.jpg",
 
-  "/img/Screenshot_4.jpg",
+  "../img/Screenshot4.jpg",
 
-  "/img/Screenshot_5.jpg",
+  "../img/Screenshot5.jpg",
 
-  "/img/Screenshot_6.jpg",
+  "../img/Screenshot6.jpg",
 
-  "/img/Screenshot_7.jpg",
+  "../img/Screenshot7.jpg",
 
-  "/img/Screenshot_8.jpg",
+  "../img/Screenshot8.jpg",
 
-  "/img/Screenshot_9.jpg",
+  "../img/Screenshot9.jpg",
 
-  "/img/Screenshot_10.jpg",
+  "../img/Screenshot10.jpg",
 
-  "/img/Screenshot_11.jpg",
+  "../img/Screenshot11.jpg",
 
-  "/img/Screenshot_12.jpg",
+  "../img/Screenshot12.jpg",
 
-  "/img/Screenshot_13.jpg",
+  "../img/Screenshot13.jpg",
 
-  "/img/Screenshot_14.jpg",
+  "../img/Screenshot14.jpg",
 
-  "/img/Screenshot_15.jpg",
-  "/img/Screenshot_16.jpg",
+  "../img/Screenshot15.jpg",
+  "../img/Screenshot16.jpg",
 
-  "/img/Screenshot_17.jpg",
+  "../img/Screenshot17.jpg",
 
-  "/img/Screenshot_18.jpg",
+  "../img/Screenshot18.jpg",
 
-  "/img/Screenshot_19.jpg",
+  "../img/Screenshot19.jpg",
 
-  "/img/Screenshot_20.jpg",
+  "../img/Screenshot20.jpg",
 
-  "/img/Screenshot_21.jpg",
+  "../img/Screenshot21.jpg",
 
-  "/img/Screenshot_22.jpg",
+  "../img/Screenshot22.jpg",
 
-  "/img/Screenshot_23.jpg",
+  "../img/Screenshot23.jpg",
 
-  "/img/Screenshot_24.jpg",
-  "/img/Screenshot_25.jpg",
+  "../img/Screenshot24.jpg",
+  "../img/Screenshot25.jpg",
 
-  "/img/Screenshot_26.jpg",
+  "../img/Screenshot26.jpg",
 
-  "/img/Screenshot_27.jpg",
+  "../img/Screenshot27.jpg",
 
-  "/img/Screenshot_28.jpg",
+  "../img/Screenshot28.jpg",
 
-  "/img/Screenshot_29.jpg",
+  "../img/Screenshot29.jpg",
 ]
 
 let r = new Play(imagePlay)
