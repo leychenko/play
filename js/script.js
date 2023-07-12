@@ -18,7 +18,7 @@ class Play {
       this.picture = document.createElement("div")
       this.picture.className = "picture"
       this.img = document.createElement("img")
-      this.img.src = `../img/Screenshot_${this.getRandomImage()}.jpg`
+      this.img.src = `/img/Screenshot_${this.getRandomImage()}.jpg`
       this.picture.append(this.img)
       this.card.append(this.picture)
       div.append(this.card)
